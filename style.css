@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.key{
+    border: .4rem solid black;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    width: 5rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0 0 1rem black;
+}
+
+.playing{
+    transform:scale(1.1);
+    border-color: #11eb11;
+    box-shadow: 0 0 10px #3c643c;
+} 
